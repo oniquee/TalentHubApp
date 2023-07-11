@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TalentHub App</string>
+    <string name="hallo_second_activity">Hallo Second Activity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="shared_preference_talenthub">sharedPreferencesTalentHubClass</string>
+    <string name="username_nemail_ncompany">Username :\nEmail :\nCompany :</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="username">username</string>
+    <string name="username2">username</string>
+    <string name="username3">username</string>
+</resources>

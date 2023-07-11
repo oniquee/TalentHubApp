@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".exercisenavcomponent.ProfileFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Profile Account"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btn_move_to_home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.123" />
+
+    <Button
+        android:id="@+id/btn_move_to_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Back To Home"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_move_to_home"
+        app:layout_constraintVertical_bias="0.907" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="185dp"
+        android:layout_height="131dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="center_vertical"
+        android:text="@string/username_nemail_ncompany"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="147dp"
+        tools:ignore="ExtraText,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="176dp"
+        android:layout_height="141dp"
+        android:layout_marginBottom="452dp"
+        android:src="@drawable/gojo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/followers"
+        android:layout_width="216dp"
+        android:layout_height="47dp"
+        android:text="@string/followers"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="-6dp"
+        tools:layout_editor_absoluteY="320dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/following"
+        android:layout_width="216dp"
+        android:layout_height="47dp"
+        android:text="@string/following"
+        android:textColor="@color/design_default_color_primary"
+        android:backgroundTint="@color/white"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="320dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/username1"
+        android:layout_width="272dp"
+        android:layout_height="54dp"
+        android:text="@string/username"
+        android:textColor="@color/design_default_color_primary"
+        android:backgroundTint="@color/white"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="380dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="83dp"
+        android:layout_height="54dp"
+        android:src="@drawable/gojo"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="380dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/username2"
+        android:layout_width="272dp"
+        android:layout_height="54dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/username2"
+        android:textAllCaps="false"
+        android:textColor="@color/design_default_color_primary"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="457dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="83dp"
+        android:layout_height="54dp"
+        android:src="@drawable/gojo"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="457dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/username3"
+        android:layout_width="272dp"
+        android:layout_height="54dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/username3"
+        android:textAllCaps="false"
+        android:textColor="@color/design_default_color_primary"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="533dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="83dp"
+        android:layout_height="54dp"
+        android:src="@drawable/gojo"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="533dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
